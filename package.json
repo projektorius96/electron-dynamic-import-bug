@@ -1,0 +1,27 @@
+{
+  "name": "electron-dynamic_import-bug",
+  "version": "1.0.1",
+  "description": "refer to README.md for general en COVERAGE.md for testing",
+  "scripts": {
+    "build": "webpack",
+    "dev:serv": "webpack serve"
+  },
+  "keywords": [],
+  "author": "projektorius96",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.18.1",
+    "electron": "^16.0.7",
+    "html-webpack-plugin": "^5.5.0",
+    "playwright": "^1.18.1",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.0",
+    "lodash": "^4.17.21",
+    "pdfkit": "^0.13.0",
+    "tweakpane": "^3.0.7"
+  }
+}
